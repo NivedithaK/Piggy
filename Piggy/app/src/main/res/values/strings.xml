@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">Piggy</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">Piggyv2</string>
+    <string name="title_home">Piggy</string>
+    <string name="title_dashboard">Dishes</string>
+    <string name="title_notifications">Sweep</string>
+    <string name="chores_notifications">Trash</string>
 </resources>
