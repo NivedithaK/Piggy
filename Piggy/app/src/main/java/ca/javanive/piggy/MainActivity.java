@@ -1,4 +1,4 @@
-package ca.javanive.piggy;
+package ca.javanive.piggyv2;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -16,9 +16,13 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            TextView textView1 = (TextView)findViewById(R.id.editText2);
+            TextView textView10 = (TextView)findViewById(R.id.textView3);
             switch (item.getItemId()) {
                 case R.id.navigation_home:
                     mTextMessage.setText(R.string.title_home);
+                    String text = textView1.getText().toString();
+                    textView10.setText(text);
                     return true;
                 case R.id.navigation_dashboard:
                     mTextMessage.setText(R.string.title_dashboard);
